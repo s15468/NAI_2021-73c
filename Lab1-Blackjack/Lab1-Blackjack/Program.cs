@@ -52,8 +52,13 @@ namespace Lab1_Blackjack
                         player.EndRound = true;
                     }
                 }
+
+                if (players.All(x => x.EndRound))
+                {
+                    break;
+                }
             }
-            while (players.All(x => x.HandPoints <= 21 && !x.EndRound) || !players.Any(x => x.HandPoints > 21));
+            while (players.All(x => x.HandPoints <= 21 && !x.EndRound) || !players.All(x => x.HandPoints > 21));
 
             Console.WriteLine("Points:");
             Console.WriteLine($"Player: {players[0].HandPoints}");
