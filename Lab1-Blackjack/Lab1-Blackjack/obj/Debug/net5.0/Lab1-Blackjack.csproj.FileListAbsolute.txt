@@ -1,0 +1,16 @@
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\bin\Debug\net5.0\Lab1-Blackjack.exe
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\bin\Debug\net5.0\Lab1-Blackjack.deps.json
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\bin\Debug\net5.0\Lab1-Blackjack.runtimeconfig.json
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\bin\Debug\net5.0\Lab1-Blackjack.runtimeconfig.dev.json
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\bin\Debug\net5.0\Lab1-Blackjack.dll
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\bin\Debug\net5.0\ref\Lab1-Blackjack.dll
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\bin\Debug\net5.0\Lab1-Blackjack.pdb
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\obj\Debug\net5.0\Lab1-Blackjack.csproj.AssemblyReference.cache
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\obj\Debug\net5.0\Lab1-Blackjack.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\obj\Debug\net5.0\Lab1-Blackjack.AssemblyInfoInputs.cache
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\obj\Debug\net5.0\Lab1-Blackjack.AssemblyInfo.cs
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\obj\Debug\net5.0\Lab1-Blackjack.csproj.CoreCompileInputs.cache
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\obj\Debug\net5.0\Lab1-Blackjack.dll
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\obj\Debug\net5.0\ref\Lab1-Blackjack.dll
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\obj\Debug\net5.0\Lab1-Blackjack.pdb
+D:\Work\NAI_2021-73c\Lab1-Blackjack\Lab1-Blackjack\obj\Debug\net5.0\Lab1-Blackjack.genruntimeconfig.cache
