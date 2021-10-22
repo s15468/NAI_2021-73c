@@ -5,7 +5,13 @@ using System.Collections.Generic;
 namespace Lab1_Blackjack
 {
     /// <summary>
-    /// Main class of game
+    /// Rules:
+    /// Player which get close 21 points win game
+    /// (number of points cant be higher than 21 else player losing game)
+    /// 
+    /// How-To open game:
+    /// 1. Via Debugger in Visual Studio (require .NET 5.0 Framework)
+    /// 2. Copy Lab1-Blackjack/bin/Debug/net5.0 folder and start Lab1-Blackjack.exe
     /// </summary>
     class Program
     {
