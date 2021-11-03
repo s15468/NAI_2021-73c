@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "p3VegX5AEsyj0aRN8rxv035+RTPp2sZsmFz4vF2umVjg9JQOfLL+36x4kqukYTf5KC1tk16uatH4KjFGz0v9Yg==",
+  "success": true,
+  "projectFilePath": "D:\\Work\\NAI_2021-73c\\Lab2-Pan\\Lab2-Pan.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xjula\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
+    "C:\\Users\\xjula\\.nuget\\packages\\accord.fuzzy\\3.8.0\\accord.fuzzy.3.8.0.nupkg.sha512",
+    "C:\\Users\\xjula\\.nuget\\packages\\accord.math\\3.8.0\\accord.math.3.8.0.nupkg.sha512",
+    "C:\\Users\\xjula\\.nuget\\packages\\accord.statistics\\3.8.0\\accord.statistics.3.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}
