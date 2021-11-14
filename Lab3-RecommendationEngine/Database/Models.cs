@@ -26,8 +26,7 @@ namespace Lab3_RecommendationEngine.Database
         [XmlAttribute(AttributeName = "Title")]
         public string Title { get; set; }
 
-        [XmlAttribute(AttributeName = "Rate")]
+        [XmlAttribute(AttributeName = "Rating")]
         public int Rating { get; set; }
     }
-
 }
