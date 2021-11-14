@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Database>
 	<User Name = "Paweł Czapiewski">
-		<Movie Title = "Polowanie na czerwony październik" Rating = "10"/>
+		<Movie Title = "The Hunt for Red October" Rating = "10"/>
 		<Movie Title = "Rick and Morty" Rating = "10"/>
 		<Movie Title = "The Big Bang Theory" Rating = "8"/>
 		<Movie Title = "Braveheart" Rating = "10"/>
 		<Movie Title = "The Expanse" Rating = "7"/>
-		<Movie Title = "Miasteczko South Park" Rating = "9"/>
-		<Movie Title = "Kraina Lodu" Rating = "5"/>
-		<Movie Title = "Dziennik Bridget Jones" Rating = "6"/>
-		<Movie Title = "Kapitan Ameryka: Wojna bohaterów" Rating = "3"/>
-		<Movie Title = "Avengers: Czas Ultrona" Rating = "2"/>
-		<Movie Title = "Terminator 2" Rating = "9"/>
-		<Movie Title = "Planeta Singli" Rating = "7"/>
-		<Movie Title = "List do M." Rating = "7"/>
-		<Movie Title = "List do M. 2" Rating = "2"/>
+		<Movie Title = "South Park" Rating = "9"/>
+		<Movie Title = "Frozen" Rating = "5"/>
+		<Movie Title = "Bridget Jones's Diary" Rating = "6"/>
+		<Movie Title = "Captain America: Civil War" Rating = "3"/>
+		<Movie Title = "Avengers: Age of Ultron" Rating = "2"/>
+		<Movie Title = "Terminator 2: Judgment Day" Rating = "9"/>
+		<Movie Title = "Planet Single" Rating = "7"/>
+		<Movie Title = "Letters to Santa" Rating = "7"/>
+		<Movie Title = "Letters to Santa 2" Rating = "2"/>
 		<Movie Title = "Forrest Gump" Rating = "10"/>
 		<Movie Title = "Ex Machina" Rating = "10"/>
 		<Movie Title = "Gran Torino" Rating = "9"/>
-		<Movie Title = "Cicha Noc" Rating = "1"/>
-		<Movie Title = "Battleship: Bitwa o Ziemię" Rating = "1"/>
-		<Movie Title = "Narodziny Gwiazdy" Rating = "2"/>
-		<Movie Title = "Kapitan Phillips" Rating = "9"/>
-		<Movie Title = "Grand Budapest Hotel" Rating = "9"/>
+		<Movie Title = "Silent Night" Rating = "1"/>
+		<Movie Title = "Battleship" Rating = "1"/>
+		<Movie Title = "A Star Is Born" Rating = "2"/>
+		<Movie Title = "Captain Phillips" Rating = "9"/>
+		<Movie Title = "The Grand Budapest Hotel" Rating = "9"/>
 		<Movie Title = "Wyjazd integracyjny" Rating = "1"/>
 		<Movie Title = "John Wick" Rating = "7"/>
 		<Movie Title = "Narcos" Rating = "10"/>
 		<Movie Title = "Terminal" Rating = "8"/>
 		<Movie Title = "Ona" Rating = "8"/>
 		<Movie Title = "Whiplash" Rating = "10"/>
-		<Movie Title = "Diabeł ubiera się u Prady" Rating = "9"/>
-		<Movie Title = "La casa De Papel" Rating = "8"/>
+		<Movie Title = "The Devil Wears Prada" Rating = "9"/>
+		<Movie Title = "Money Heist" Rating = "8"/>
 	</User>
 	<User Name = "Maciej Rybacki">
 		<Movie Title = "Snowpiercer" Rating = "8"/>
@@ -309,7 +309,7 @@
 		<Movie Title = "Se7en" Rating = "10"/>
 		<Movie Title = "Incepcja" Rating = "10"/>
 		<Movie Title = "Nomadland" Rating = "6"/>
-		<Movie Title = "Planeta Singli" Rating = "7"/>
+		<Movie Title = "Planet Single" Rating = "7"/>
 		<Movie Title = "Matrix" Rating = "6"/>
 		<Movie Title = "Lot nad kukułczym gniazdem" Rating = "7"/>
 		<Movie Title = "Mliczenie owiec" Rating = "9"/>
