@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+	<User Name = "Paweł Czapiewski">
+		<Movie Title = "The Hunt for Red October" Rating = "10"/>
+		<Movie Title = "Rick and Morty" Rating = "10"/>
+		<Movie Title = "The Big Bang Theory" Rating = "8"/>
+		<Movie Title = "Braveheart" Rating = "10"/>
+		<Movie Title = "The Expanse" Rating = "7"/>
+		<Movie Title = "South Park" Rating = "9"/>
+		<Movie Title = "Frozen" Rating = "5"/>
+		<Movie Title = "Bridget Jones's Diary" Rating = "6"/>
+		<Movie Title = "Captain America: Civil War" Rating = "3"/>
+		<Movie Title = "Avengers: Age of Ultron" Rating = "2"/>
+		<Movie Title = "Terminator 2: Judgment Day" Rating = "9"/>
+		<Movie Title = "Planet Single" Rating = "7"/>
+		<Movie Title = "Letters to Santa" Rating = "7"/>
+		<Movie Title = "Letters to Santa 2" Rating = "2"/>
+		<Movie Title = "Forrest Gump" Rating = "10"/>
+		<Movie Title = "Ex Machina" Rating = "10"/>
+		<Movie Title = "Gran Torino" Rating = "9"/>
+		<Movie Title = "Silent Night" Rating = "1"/>
+		<Movie Title = "Battleship" Rating = "1"/>
+		<Movie Title = "A Star Is Born" Rating = "2"/>
+		<Movie Title = "Captain Phillips" Rating = "9"/>
+		<Movie Title = "The Grand Budapest Hotel" Rating = "9"/>
+		<Movie Title = "Wyjazd integracyjny" Rating = "1"/>
+		<Movie Title = "John Wick" Rating = "7"/>
+		<Movie Title = "Narcos" Rating = "10"/>
+		<Movie Title = "Terminal" Rating = "8"/>
+		<Movie Title = "Ona" Rating = "8"/>
+		<Movie Title = "Whiplash" Rating = "10"/>
+		<Movie Title = "The Devil Wears Prada" Rating = "9"/>
+		<Movie Title = "Money Heist" Rating = "8"/>
+	</User>
+	<User Name = "Maciej Rybacki">
+		<Movie Title = "Snowpiercer" Rating = "8"/>
+		<Movie Title = "New Amsterdam" Rating = "10"/>
+		<Movie Title = "Rick and Morty" Rating = "10"/>
+		<Movie Title = "Dune" Rating = "10"/>
+		<Movie Title = "How i met your mother" Rating = "8"/>
+		<Movie Title = "Park boys" Rating = "1"/>
+		<Movie Title = "Sherlock Holmes" Rating = "10"/>
+		<Movie Title = "You" Rating = "7"/>
+		<Movie Title = "Gotham" Rating = "10"/>
+		<Movie Title = "La casa De Papel" Rating = "8"/>
+		<Movie Title = "Direction: Night" Rating = "9"/>
+		<Movie Title = "Love, Death and Robots" Rating = "8"/>
+		<Movie Title = "The Witcher" Rating = "8"/>
+		<Movie Title = "Babydriver" Rating = "8"/>
+		<Movie Title = "Ex Machina" Rating = "8"/>
+		<Movie Title = "Se7en" Rating = "7"/>
+		<Movie Title = "How I Became a Gangster. True Story" Rating = "10"/>
+		<Movie Title = "The Office" Rating = "1"/>
+		<Movie Title = "Dark" Rating = "7"/>
+		<Movie Title = "Stranger Things" Rating = "9"/>
+		<Movie Title = "The umbrella academy" Rating = "2"/>
+		<Movie Title = "House of Cards" Rating = "8"/>
+		<Movie Title = "The Witcher: Nightmare of the Wolf" Rating = "3"/>
+		<Movie Title = "The Bilion Dollar Code" Rating = "8"/>
+		<Movie Title = "Narcos" Rating = "8"/>
+		<Movie Title = "James Bond: No Time To Die" Rating = "10"/>
+		<Movie Title = "Lupin" Rating = "8"/>
+		<Movie Title = "Inception" Rating = "10"/>
+		<Movie Title = "The Suits" Rating = "10"/>
+		<Movie Title = "Sex educaiton" Rating = "1"/>
+	</User>
+	<User Name = "Krystian Dąbrowski">
+		<Movie Title = "House" Rating = "8"/>
+		<Movie Title = "DOTA: Dragon's Blood" Rating = "7"/>
+		<Movie Title = "Lucifier" Rating = "7"/>
+		<Movie Title = "Venom: Let There Be Carnage" Rating = "4"/>
+		<Movie Title = "The Office" Rating = "6"/>
+		<Movie Title = "Gladiator" Rating = "5"/>
+		<Movie Title = "Trailer Park Boys" Rating = "7"/>
+		<Movie Title = "The Conjuring: The Devil Made Me Do It" Rating = "5"/>
+		<Movie Title = "Black Widow" Rating = "4"/>
+		<Movie Title = "Norbit" Rating = "7"/>
+		<Movie Title = "The Walking Dead" Rating = "8"/>
+		<Movie Title = "John Wick" Rating = "7"/>
+		<Movie Title = "John Wick: Chapter 2" Rating = "6"/>
+		<Movie Title = "Veer-Zaara" Rating = "5"/>
+		<Movie Title = "Hardcore Henry" Rating = "9"/>
+		<Movie Title = "Dark" Rating = "6"/>
+		<Movie Title = "The Haunting of Bly Manor" Rating = "3"/>
+		<Movie Title = "Chis Chan: A Comprehensive History" Rating = "10"/>
+		<Movie Title = "This Is Monsters" Rating = "8"/>
+		<Movie Title = "Kung Fury" Rating = "6"/>
+		<Movie Title = "Treasure Planet" Rating = "8"/>
+		<Movie Title = "Forrest Gump" Rating = "7"/>
+		<Movie Title = "Squid Game" Rating = "7"/>
+		<Movie Title = "Atypical" Rating = "9"/>
+		<Movie Title = "The Twilight Saga" Rating = "2"/>
+		<Movie Title = "The Witcher" Rating = "9"/>
+		<Movie Title = "Joker" Rating = "9"/>
+		<Movie Title = "The Dark Knight Rises" Rating = "7"/>
+		<Movie Title = "Home Alone" Rating = "4"/>
+		<Movie Title = "Harry Potter and The Prisoner Of Azkaban" Rating = "6"/>
+		<Movie Title = "Split" Rating = "6"/>
+	</User>
+	<User Name = "Łukasz Ćwikliński">
+		<Movie Title = "How Hig" Rating = "8"/>
+		<Movie Title = "Dune" Rating = "7"/>
+		<Movie Title = "That '70s Show" Rating = "9"/>
+		<Movie Title = "Zombreavers" Rating = "3"/>
+		<Movie Title = "No Time to Die" Rating = "5"/>
+		<Movie Title = "Superbad" Rating = "8"/>
+	</User>
+	<User Name = "Rafał Tęcza">
+		<Movie Title = "Limitless" Rating = "9"/>
+		<Movie Title = "Disenchantment" Rating = "7"/>
+		<Movie Title = "Friends" Rating = "8"/>
+		<Movie Title = "The Big Bang Theory" Rating = "7"/>
+		<Movie Title = "The Hunger Games" Rating = "8"/>
+		<Movie Title = "Constantine" Rating = "9"/>
+		<Movie Title = "Daredevil" Rating = "6"/>
+		<Movie Title = "Black mirror" Rating = "7"/>
+		<Movie Title = "District 9" Rating = "10"/>
+		<Movie Title = "Matrix" Rating = "9"/>
+		<Movie Title = "The Walking Dead" Rating = "3"/>
+		<Movie Title = "Wyjazd integracyjny" Rating = "2"/>
+		<Movie Title = "Mr. Robot" Rating = "9"/>
+		<Movie Title = "La casa De Papel" Rating = "9"/>
+		<Movie Title = "Kevin Sam w Domu" Rating = "5"/>
+		<Movie Title = "Avatar" Rating = "7"/>
+		<Movie Title = "The 100" Rating = "5"/>
+		<Movie Title = "13 Reasons Why" Rating = "2"/>
+		<Movie Title = "Under The Dome" Rating = "4"/>
+		<Movie Title = "Stranger Things" Rating = "7"/>
+		<Movie Title = "The Umbrella Academy" Rating = "8"/>
+		<Movie Title = "Altred Carbon" Rating = "9"/>
+		<Movie Title = "Travelers" Rating = "8"/>
+		<Movie Title = "Back to the Future" Rating = "9"/>
+		<Movie Title = "Dark" Rating = "4"/>
+		<Movie Title = "3%" Rating = "3"/>
+		<Movie Title = "Jessica Jones" Rating = "9"/>
+		<Movie Title = "The Witcher" Rating = "9"/>
+		<Movie Title = "Spider-Man: Far From Home" Rating = "7"/>
+		<Movie Title = "Squid Game" Rating = "6"/>
+		<Movie Title = "Joker" Rating = "8"/>
+	</User>
+	<User Name = "Bartosz Bizoń">
+		<Movie Title = "The Bang Theory" Rating = "4"/>
+		<Movie Title = "Dark" Rating = "8"/>
+		<Movie Title = "Venom" Rating = "7"/>
+		<Movie Title = "Child's Play" Rating = "6"/>
+		<Movie Title = "Deadpool" Rating = "7"/>
+		<Movie Title = "Deadpool 2" Rating = "8"/>
+		<Movie Title = "A Beautiful Mind" Rating = "8"/>
+		<Movie Title = "The Hangover" Rating = "7"/>
+		<Movie Title = "Hobbit" Rating = "8"/>
+		<Movie Title = "Swiss Army Man" Rating = "4"/>
+		<Movie Title = "Forrest Gump" Rating = "9"/>
+	</User>
+	<User Name = "Krzysztof Windorpski">
+		<Movie Title = "Taboo series" Rating = "8"/>
+		<Movie Title = "Rick and Morty" Rating = "10"/>
+		<Movie Title = "How I met your mother" Rating = "7"/>
+		<Movie Title = "Black mirror" Rating = "9"/>
+		<Movie Title = "Legend (2015)" Rating = "7"/>
+		<Movie Title = "You Series" Rating = "7"/>
+		<Movie Title = "Sex" Rating = "1"/>
+		<Movie Title = "Talented Mr Ripley" Rating = "7"/>
+		<Movie Title = "Grant Torino" Rating = "8"/>
+		<Movie Title = "Hannibal" Rating = "7"/>
+		<Movie Title = "John Wick" Rating = "7"/>
+		<Movie Title = "John Wick 2" Rating = "7"/>
+		<Movie Title = "John Wick 3" Rating = "6"/>
+		<Movie Title = "Forrest Gump" Rating = "8"/>
+		<Movie Title = "Matrix" Rating = "8"/>
+		<Movie Title = "Mr. Robot" Rating = "8"/>
+		<Movie Title = "Kac Wawa" Rating = "2"/>
+		<Movie Title = "Lost in translation" Rating = "8"/>
+		<Movie Title = "Terminator" Rating = "7"/>
+		<Movie Title = "Locke" Rating = "3"/>
+		<Movie Title = "Locke and Key" Rating = "6"/>
+		<Movie Title = "Dunkirk" Rating = "8"/>
+		<Movie Title = "Public enemies" Rating = "7"/>
+		<Movie Title = "Fear and loathing in Las Vegas" Rating = "8"/>
+		<Movie Title = "The Professor" Rating = "8"/>
+		<Movie Title = "Watchmen" Rating = "5"/>
+		<Movie Title = "Wanted: Weapons of fate" Rating = "7"/>
+	</User>
+	<User Name = "Iwona Piętka">
+		<Movie Title = "Fight Club" Rating = "8"/>
+		<Movie Title = "The Rocky Horror Picture Show" Rating = "9"/>
+		<Movie Title = "The Road to El Dorado" Rating = "7"/>
+		<Movie Title = "Gran Torino" Rating = "9"/>
+		<Movie Title = "Constantine" Rating = "8"/>
+		<Movie Title = "Monty Python and the Holy Grail" Rating = "8"/>
+		<Movie Title = "Terminal" Rating = "10"/>
+		<Movie Title = "Inception" Rating = "8"/>
+		<Movie Title = "Inglourious Basterds" Rating = "7"/>
+		<Movie Title = "The Lord of the Rings: The Fellowship of the Ring" Rating = "8"/>
+		<Movie Title = "Matrix" Rating = "7"/>
+		<Movie Title = "Hannibal" Rating = "10"/>
+		<Movie Title = "Scent of a Woman" Rating = "9"/>
+		<Movie Title = "The Office" Rating = "6"/>
+		<Movie Title = "That '70s Show" Rating = "9"/>
+		<Movie Title = "A Clockwork Orange" Rating = "2"/>
+		<Movie Title = "Rubber" Rating = "3"/>
+		<Movie Title = "365 days" Rating = "1"/>
+		<Movie Title = "Ghost Busters 2" Rating = "2"/>
+		<Movie Title = "The Room" Rating = "3"/>
+		<Movie Title = "Nerd" Rating = "2"/>
+	</User>
+	<User Name = "Tomasz Samól">
+		<Movie Title = "Ex Machina" Rating = "7"/>
+		<Movie Title = "American Psycho" Rating = "10"/>
+		<Movie Title = "Unbreakable" Rating = "8"/>
+		<Movie Title = "The Girl Next Door" Rating = "8"/>
+		<Movie Title = "American Beauty" Rating = "10"/>
+		<Movie Title = "Malena" Rating = "10"/>
+		<Movie Title = "Justice League The Flaspoint Paradox" Rating = "10"/>
+		<Movie Title = "Dune" Rating = "10"/>
+		<Movie Title = "Venom: Let There Be Carnage" Rating = "3"/>
+		<Movie Title = "Avengers: Endgame" Rating = "9"/>
+		<Movie Title = "The Purge" Rating = "2"/>
+		<Movie Title = "Seksmisja" Rating = "10"/>
+		<Movie Title = "Matrix" Rating = "10"/>
+		<Movie Title = "Kac Vegas" Rating = "4"/>
+		<Movie Title = "Small World" Rating = "6"/>
+		<Movie Title = "Forest Gump" Rating = "10"/>
+		<Movie Title = "Good Will Hunting" Rating = "10"/>
+		<Movie Title = "Avatar" Rating = "6"/>
+		<Movie Title = "Nietykalni" Rating = "7"/>
+		<Movie Title = "K-PAX" Rating = "9"/>
+		<Movie Title = "Alice in Wonderland" Rating = "4"/>
+		<Movie Title = "No Country For Old Men" Rating = "8"/>
+		<Movie Title = "Back to the Future" Rating = "10"/>
+		<Movie Title = "Alien" Rating = "7"/>
+		<Movie Title = "365 days" Rating = "1"/>
+		<Movie Title = "Transformers: Age of Extinction" Rating = "3"/>
+		<Movie Title = "Suicide Squad" Rating = "4"/>
+		<Movie Title = "Joker" Rating = "5"/>
+		<Movie Title = "Saw 3" Rating = "2"/>
+		<Movie Title = "Kobiety Mafii" Rating = "2"/>
+	</User>
+	<User Name = "Sebastian Lewandowski">
+		<Movie Title = "Saving Private Ryan" Rating = "9"/>
+		<Movie Title = "Band of Brothers" Rating = "10"/>
+		<Movie Title = "The Pacific" Rating = "8"/>
+		<Movie Title = "Top gun" Rating = "9"/>
+		<Movie Title = "Midway" Rating = "8"/>
+		<Movie Title = "Alexander" Rating = "8"/>
+		<Movie Title = "Kac Wawa" Rating = "2"/>
+		<Movie Title = "The Patriot" Rating = "9"/>
+		<Movie Title = "The Battle of Vienna" Rating = "1"/>
+		<Movie Title = "Battle of Warsaw 1920" Rating = "2"/>
+		<Movie Title = "1939 Battle of Westerplatte" Rating = "2"/>
+		<Movie Title = "Pearl Harbor" Rating = "7"/>
+	</User>
+	<User Name = "Łukasz Reinke">
+		<Movie Title = "The Dark Knight" Rating = "10"/>
+		<Movie Title = "The Office" Rating = "9"/>
+		<Movie Title = "The Island" Rating = "7"/>
+		<Movie Title = "The Gread Gatsby" Rating = "8"/>
+		<Movie Title = "Shutter Island" Rating = "10"/>
+		<Movie Title = "Inception" Rating = "10"/>
+		<Movie Title = "Matrix" Rating = "8"/>
+		<Movie Title = "Law Abiding Citizen" Rating = "9"/>
+		<Movie Title = "Shrek" Rating = "9"/>
+		<Movie Title = "The Number 23" Rating = "7"/>
+		<Movie Title = "Ace Ventura: Pet Detective" Rating = "8"/>
+		<Movie Title = "Harry Potter and the Order Of The Phoenix" Rating = "7"/>
+		<Movie Title = "James Bond:No time to die" Rating = "9"/>
+	</User>
+	<User Name = "Nikodem Strawa">
+		<Movie Title = "The Office PL" Rating = "7"/>
+		<Movie Title = "The Office" Rating = "9"/>
+		<Movie Title = "Dune" Rating = "7"/>
+		<Movie Title = "Black Widow" Rating = "8"/>
+		<Movie Title = "The Inglourious Bastards" Rating = "10"/>
+		<Movie Title = "Once Upon a Time... In Hollywood" Rating = "9"/>
+		<Movie Title = "Interstellar" Rating = "10"/>
+		<Movie Title = "Vikings" Rating = "9"/>
+		<Movie Title = "Game of thrones" Rating = "9"/>
+		<Movie Title = "The Big Bang Theory" Rating = "8"/>
+		<Movie Title = "Young Sheldon" Rating = "7"/>
+		<Movie Title = "Rick and Morty" Rating = "9"/>
+		<Movie Title = "Big short" Rating = "8"/>
+		<Movie Title = "The Wolf of Wall Street" Rating = "9"/>
+		<Movie Title = "Squid Game" Rating = "8"/>
+		<Movie Title = "Mr. Robot" Rating = "9"/>
+		<Movie Title = "Family Guy" Rating = "7"/>
+		<Movie Title = "Bojack Horseman" Rating = "7"/>
+		<Movie Title = "Narcos" Rating = "8"/>
+		<Movie Title = "Peaky Blinders" Rating = "10"/>
+		<Movie Title = "The Witcher" Rating = "9"/>
+		<Movie Title = "Britannia" Rating = "6"/>
+		<Movie Title = "Westworld" Rating = "9"/>
+		<Movie Title = "A Beautiful Mind" Rating = "9"/>
+		<Movie Title = "The Queen's Gambit" Rating = "8"/>
+		<Movie Title = "Avengers: Endgame" Rating = "8"/>
+		<Movie Title = "Avengers: Infinity War" Rating = "9"/>
+		<Movie Title = "Avengers: Age of Ultron" Rating = "8"/>
+		<Movie Title = "Joker" Rating = "9"/>
+		<Movie Title = "Polityka" Rating = "3"/>
+		<Movie Title = "Breaking Bad" Rating = "8"/>
+	</User>
+	<User Name = "Adrian Szostak">
+		<Movie Title = "Forrest Gump" Rating = "10"/>
+		<Movie Title = "Sherlock Holmes" Rating = "10"/>
+		<Movie Title = "Whiplash" Rating = "8"/>
+		<Movie Title = "Gran Torino" Rating = "8"/>
+		<Movie Title = "Friends" Rating = "9"/>
+		<Movie Title = "Skazani na Shawshank" Rating = "9"/>
+		<Movie Title = "Kler" Rating = "5"/>
+		<Movie Title = "Boże Ciało" Rating = "8"/>
+		<Movie Title = "Se7en" Rating = "10"/>
+		<Movie Title = "Incepcja" Rating = "10"/>
+		<Movie Title = "Nomadland" Rating = "6"/>
+		<Movie Title = "Planet Single" Rating = "7"/>
+		<Movie Title = "Matrix" Rating = "6"/>
+		<Movie Title = "Lot nad kukułczym gniazdem" Rating = "7"/>
+		<Movie Title = "Mliczenie owiec" Rating = "9"/>
+		<Movie Title = "Lord of The Ring" Rating = "5"/>
+		<Movie Title = "Lupin" Rating = "8"/>
+		<Movie Title = "Top Gun" Rating = "8"/>
+		<Movie Title = "Ex Machina" Rating = "7"/>
+		<Movie Title = "Nietykalni" Rating = "9"/>
+		<Movie Title = "Dwóch i pół" Rating = "6"/>
+		<Movie Title = "Black Mirror" Rating = "8"/>
+		<Movie Title = "The Big Bang Theory" Rating = "7"/>
+		<Movie Title = "Rick and Morty" Rating = "8"/>
+		<Movie Title = "Dark" Rating = "7"/>
+		<Movie Title = "Stranger Things" Rating = "8"/>
+		<Movie Title = "Breaking Bad" Rating = "6"/>
+		<Movie Title = "Joker" Rating = "7"/>
+		<Movie Title = "Interstellar" Rating = "9"/>
+		<Movie Title = "Gra" Rating = "8"/>
+		<Movie Title = "House of cards" Rating = "6"/>
+	</User>
+	<User Name = "Małgorzata Cichowlas">
+		<Movie Title = "Xtro" Rating = "8"/>
+		<Movie Title = "Na rauszu" Rating = "6"/>
+		<Movie Title = "Nagi instynkt" Rating = "8"/>
+		<Movie Title = "Turbo Kid" Rating = "7"/>
+		<Movie Title = "Palm Springs" Rating = "7"/>
+		<Movie Title = "Noc przez dwanaście lat" Rating = "8"/>
+		<Movie Title = "Nowiny ze świata" Rating = "7"/>
+		<Movie Title = "Kronika świąteczna" Rating = "4"/>
+		<Movie Title = "Niebo o północy" Rating = "6"/>
+		<Movie Title = "Proces Siódemki z Chicago" Rating = "8"/>
+		<Movie Title = "Tenet" Rating = "7"/>
+		<Movie Title = "Skazany" Rating = "8"/>
+		<Movie Title = "Le Mans '66" Rating = "9"/>
+		<Movie Title = "knives out" Rating = "9"/>
+		<Movie Title = "Donnie Brasco" Rating = "8"/>
+		<Movie Title = "Dżentelmeni" Rating = "9"/>
+		<Movie Title = "Jojo Rabbit" Rating = "9"/>
+		<Movie Title = "Irlandczyk" Rating = "8"/>
+		<Movie Title = "Proceder" Rating = "4"/>
+		<Movie Title = "Rick and Morty" Rating = "9"/>
+		<Movie Title = "Squid Game" Rating = "7"/>
+		<Movie Title = "Lighthouse" Rating = "9"/>
+		<Movie Title = "Elfy" Rating = "2"/>
+		<Movie Title = "Cicha noc, śmierci noc 2" Rating = "2"/>
+		<Movie Title = "Bohemian Rhapsody" Rating = "8"/>
+		<Movie Title = "Star Wars: The Resurrection of the Force" Rating = "5"/>
+		<Movie Title = "Glass" Rating = "5"/>
+		<Movie Title = "Parasite" Rating = "7"/>
+		<Movie Title = "Botoxx" Rating = "1"/>
+		<Movie Title = "Smolensk" Rating = "1"/>
+		<Movie Title = "Kac Wawa" Rating = "1"/>
+	</User>
+	<User Name = "Julian Chodorowski">
+		<Movie Title = "Schindler's List" Rating = "8"/>
+		<Movie Title = "The Pianist" Rating = "7"/>
+		<Movie Title = "Full Metal Jacket" Rating = "8"/>
+		<Movie Title = "Enemy at The Gates" Rating = "10"/>
+		<Movie Title = "Black Hawk Down" Rating = "9"/>
+		<Movie Title = "As Far as My Feet Will Carry Me" Rating = "7"/>
+		<Movie Title = "Lord of The Rings" Rating = "8"/>
+		<Movie Title = "Penguins of Madagascar" Rating = "10"/>
+		<Movie Title = "Wall-E" Rating = "7"/>
+		<Movie Title = "Shrek Forever After" Rating = "5"/>
+		<Movie Title = "Winnie the Pooh" Rating = "10"/>
+		<Movie Title = "Ice Age: The Meltdown" Rating = "4"/>
+		<Movie Title = "Tekken" Rating = "6"/>
+		<Movie Title = "Rocky" Rating = "10"/>
+		<Movie Title = "Supershark" Rating = "2"/>
+		<Movie Title = "The Room" Rating = "2"/>
+		<Movie Title = "With Fire and Sword" Rating = "3"/>
+		<Movie Title = "Mis" Rating = "4"/>
+		<Movie Title = "Kill Bill" Rating = "6"/>
+		<Movie Title = "50 faces of Grey" Rating = "1"/>
+		<Movie Title = "Game of Thrones" Rating = "3"/>
+		<Movie Title = "Rick and Morty" Rating = "2"/>
+		<Movie Title = "Phineas and Ferb" Rating = "5"/>
+		<Movie Title = "D-Day" Rating = "10"/>
+		<Movie Title = "PitBull" Rating = "3"/>
+		<Movie Title = "Women of Mafia" Rating = "1"/>
+		<Movie Title = "House" Rating = "7"/>
+		<Movie Title = "Fast and Furious" Rating = "9"/>
+		<Movie Title = "Matrix" Rating = "6"/>
+		<Movie Title = "The Witcher" Rating = "1"/>
+		<Movie Title = "365 Days" Rating = "1"/>
+	</User>
+	<User Name = "Konrad Chrzanowski">
+		<Movie Title = "Dune" Rating = "9"/>
+		<Movie Title = "It's always sunny in Philadelphia" Rating = "10"/>
+		<Movie Title = "How I met your mother" Rating = "3"/>
+		<Movie Title = "The Big Bang Theory" Rating = "1"/>
+		<Movie Title = "The Exorcist" Rating = "9"/>
+		<Movie Title = "Black Dynamite" Rating = "10"/>
+		<Movie Title = "Na Wspólnej" Rating = "3"/>
+		<Movie Title = "Se7en" Rating = "9"/>
+		<Movie Title = "The Wire" Rating = "10"/>
+		<Movie Title = "The Sopranos" Rating = "10"/>
+		<Movie Title = "Tenet" Rating = "5"/>
+		<Movie Title = "The Lord of the Rings: The Fellowship of the Ring" Rating = "10"/>
+		<Movie Title = "Airplane" Rating = "7"/>
+		<Movie Title = "Battleship" Rating = "1"/>
+		<Movie Title = "Blade Runner" Rating = "8"/>
+		<Movie Title = "Escape from New York" Rating = "9"/>
+		<Movie Title = "The Thing" Rating = "10"/>
+		<Movie Title = "Big trouble in Little China" Rating = "10"/>
+		<Movie Title = "They live" Rating = "8"/>
+		<Movie Title = "Casino" Rating = "7"/>
+		<Movie Title = "Avengers: Endgame" Rating = "4"/>
+		<Movie Title = "Doctor Strange" Rating = "3"/>
+		<Movie Title = "Thor: Ragnarock" Rating = "7"/>
+		<Movie Title = "Hunt for the wilderpeople" Rating = "9"/>
+		<Movie Title = "Narcos" Rating = "7"/>
+		<Movie Title = "Westworld" Rating = "7"/>
+		<Movie Title = "Lighthouse" Rating = "8"/>
+		<Movie Title = "Parasite" Rating = "8"/>
+		<Movie Title = "Oldboy" Rating = "10"/>
+		<Movie Title = "Chaser" Rating = "9"/>
+	</User>
+	<User Name = "Marcin Biedrzycki">
+		<Movie Title = "Knives out" Rating = "9"/>
+		<Movie Title = "Sniper" Rating = "7"/>
+		<Movie Title = "John Wick" Rating = "7"/>
+		<Movie Title = "Wesele" Rating = "2"/>
+		<Movie Title = "Shutter Island" Rating = "8"/>
+		<Movie Title = "Inception" Rating = "8"/>
+		<Movie Title = "Harry Potter" Rating = "6"/>
+		<Movie Title = "Infiltration" Rating = "7"/>
+		<Movie Title = "The Expendables" Rating = "6"/>
+		<Movie Title = "The Sopranos" Rating = "10"/>
+		<Movie Title = "M jak milosc" Rating = "1"/>
+		<Movie Title = "Na Wspolnej" Rating = "3"/>
+		<Movie Title = "The Bold and the Beautiful" Rating = "4"/>
+		<Movie Title = "Vikings" Rating = "9"/>
+		<Movie Title = "Game of Thrones" Rating = "3"/>
+		<Movie Title = "The Mandalorian" Rating = "8"/>
+		<Movie Title = "Dark" Rating = "6"/>
+		<Movie Title = "Black Mirror" Rating = "4"/>
+		<Movie Title = "Suits" Rating = "2"/>
+		<Movie Title = "Bad Boys" Rating = "6"/>
+		<Movie Title = "Spider-Man" Rating = "3"/>
+		<Movie Title = "Transformers" Rating = "2"/>
+		<Movie Title = "Narcos" Rating = "8"/>
+		<Movie Title = "Squid Games" Rating = "6"/>
+		<Movie Title = "Ocean's Twelve" Rating = "7"/>
+		<Movie Title = "Django" Rating = "8"/>
+		<Movie Title = "Creed" Rating = "8"/>
+		<Movie Title = "Lupin" Rating = "5"/>
+		<Movie Title = "Brickleberry" Rating = "7"/>
+		<Movie Title = "Dragon Ball" Rating = "5"/>
+		<Movie Title = "Kung Fu Panda" Rating = "3"/>
+	</User>
+	<User Name = "Tomasz Sosiński">
+		<Movie Title = "Pulp Fiction" Rating = "9"/>
+		<Movie Title = "Inception" Rating = "9"/>
+		<Movie Title = "Beavis and Butt-Head" Rating = "8"/>
+		<Movie Title = "Brickleberry" Rating = "9"/>
+		<Movie Title = "Lucifer" Rating = "6"/>
+		<Movie Title = "Zlotopolscy" Rating = "10"/>
+		<Movie Title = "Rambo" Rating = "7"/>
+		<Movie Title = "Plebania" Rating = "4"/>
+		<Movie Title = "Dark" Rating = "4"/>
+		<Movie Title = "Squid Game" Rating = "8"/>
+		<Movie Title = "Gomorrah" Rating = "10"/>
+		<Movie Title = "Goodfellas" Rating = "8"/>
+		<Movie Title = "Scarface" Rating = "7"/>
+		<Movie Title = "Money Heist" Rating = "6"/>
+		<Movie Title = "The 100" Rating = "4"/>
+		<Movie Title = "300" Rating = "8"/>
+		<Movie Title = "Tomb Raider" Rating = "6"/>
+		<Movie Title = "Killer" Rating = "9"/>
+		<Movie Title = "Psy" Rating = "9"/>
+		<Movie Title = "Psy 2" Rating = "9"/>
+		<Movie Title = "Toy Story" Rating = "9"/>
+		<Movie Title = "Dragon Ball" Rating = "9"/>
+		<Movie Title = "Tsubassa: The Movie" Rating = "7"/>
+		<Movie Title = "John Wick" Rating = "6"/>
+		<Movie Title = "Wyjazd integracyjny" Rating = "3"/>
+		<Movie Title = "West World" Rating = "6"/>
+		<Movie Title = "House of Cards" Rating = "7"/>
+		<Movie Title = "The Witcher" Rating = "7"/>
+		<Movie Title = "Lord of the Rings" Rating = "9"/>
+		<Movie Title = "Hobbit" Rating = "9"/>
+		<Movie Title = "Joker" Rating = "7"/>
+	</User>
+	<User Name = "Hubert Korzeniewski">
+		<Movie Title = "Fight Club" Rating = "8"/>
+		<Movie Title = "Dune" Rating = "9"/>
+		<Movie Title = "Sonic" Rating = "6"/>
+		<Movie Title = "Harry Potter" Rating = "6"/>
+		<Movie Title = "Exorcist" Rating = "6"/>
+		<Movie Title = "Over the Hedge" Rating = "8"/>
+		<Movie Title = "Twilight" Rating = "2"/>
+		<Movie Title = "Infiltration" Rating = "7"/>
+		<Movie Title = "Dark" Rating = "8"/>
+		<Movie Title = "Sherlock Holmes" Rating = "8"/>
+		<Movie Title = "Kung Fu Panda" Rating = "9"/>
+		<Movie Title = "Pulp Fiction" Rating = "9"/>
+		<Movie Title = "Matrix" Rating = "7"/>
+		<Movie Title = "House of Cards" Rating = "7"/>
+		<Movie Title = "Loving Vincent" Rating = "7"/>
+		<Movie Title = "Boys Don't Cry" Rating = "10"/>
+		<Movie Title = "300" Rating = "7"/>
+		<Movie Title = "Black Mirror" Rating = "8"/>
+		<Movie Title = "Lord of the Rings" Rating = "10"/>
+		<Movie Title = "Hobbit" Rating = "6"/>
+		<Movie Title = "Star Wars" Rating = "8"/>
+		<Movie Title = "Toy Story" Rating = "7"/>
+		<Movie Title = "The Witcher" Rating = "6"/>
+		<Movie Title = "Jojo Rabbit" Rating = "8"/>
+		<Movie Title = "The Godfather" Rating = "8"/>
+		<Movie Title = "Interstellar" Rating = "8"/>
+		<Movie Title = "Joker" Rating = "8"/>
+		<Movie Title = "Squid Game" Rating = "6"/>
+		<Movie Title = "Terminator" Rating = "6"/>
+		<Movie Title = "Transformers" Rating = "4"/>
+		<Movie Title = "Spider-Man 2" Rating = "6"/>
+		<Movie Title = "Spider-Man" Rating = "7"/>
+	</User>
+</Database>
+			
