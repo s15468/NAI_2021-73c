@@ -52,15 +52,17 @@ namespace Lab3_RecommendationEngine.REST
 
         private bool isNameOrTitleEqualsExpectedName(TMDBMovie movie, string expectedName)
         {
-            if (movie.name != null && movie.name.Equals(expectedName, StringComparison.OrdinalIgnoreCase))
+            if (movie.name != null && movie.name.Equals(expectedName, StringComparison.OrdinalIgnoreCase) && movie.overview.Length > 0)
             {
                 return true;
             }
 
-            if (movie.title != null && movie.title.Equals(expectedName, StringComparison.OrdinalIgnoreCase))
+            if (movie.title != null && movie.title.Equals(expectedName, StringComparison.OrdinalIgnoreCase) && movie.overview.Length > 0)
             {
                 return true;
             }
+
+
 
             return false;
         }
