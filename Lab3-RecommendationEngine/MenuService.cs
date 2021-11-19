@@ -7,18 +7,38 @@ using System.Linq;
 
 namespace Lab3_RecommendationEngine
 {
+    /// <summary>
+    /// Class representing User Interface to communicate with user.
+    /// </summary>
     public class MenuService
     {
+        /// <summary>
+        /// Field representing instance of RenderService class.
+        /// </summary>
         private readonly RenderService _renderService;
+
+        /// <summary>
+        /// Field representing instance of TheMovieDBApiService class.
+        /// </summary>
         private readonly TheMovieDBApiService _tMDBApiService;
+
+        /// <summary>
+        /// Field representing instance of RecommendationService class.
+        /// </summary>
         private RecommendationService _recommendationService;
 
+        /// <summary>
+        /// Default constructor with initializing fields.
+        /// </summary>
         public MenuService()
         {
             _renderService = new RenderService();
             _tMDBApiService = new TheMovieDBApiService();
         }
 
+        /// <summary>
+        /// Method representing Main menu of UI with logic.
+        /// </summary>
         public void MainMenu()
         {
             IEnumerable<User> allUsers = new DatabaseService().GetUsers();
@@ -38,7 +58,7 @@ namespace Lab3_RecommendationEngine
                     Environment.Exit(1);
                 }
 
-                renderSelectedAlgorithmBestAndWorseUsers(selectedAlgorithm.data);
+                renderSelectedAlgorithmBestAndWorstUsers(selectedAlgorithm.data);
                 (Option option, RecommendationType data) selectedRecommendation = selectBestOrWorstRecommendation();
 
                 switch (selectedRecommendation)
@@ -58,6 +78,10 @@ namespace Lab3_RecommendationEngine
             while (true);
         }
 
+        /// <summary>
+        /// Method with UI allows to select what type of recommendation user want.
+        /// </summary>
+        /// <returns>Return Tuple with Option type and selected recommendation type.</returns>
         private (Option option, RecommendationType data) selectBestOrWorstRecommendation()
         {
             do
@@ -95,6 +119,10 @@ namespace Lab3_RecommendationEngine
             while (true);
         }
 
+        /// <summary>
+        /// Method with UI allows to select user which need to get recommendation movies.
+        /// </summary>
+        /// <returns>Return selected User.</returns>
         private User selectUserToRecommendMovies(IEnumerable<User> users)
         {
             do
@@ -124,6 +152,10 @@ namespace Lab3_RecommendationEngine
             while (true);
         }
 
+        /// <summary>
+        /// Method with UI allows to select what algorithm use to return recommendation.
+        /// </summary>
+        /// <returns>Return Tuple with Option type and selected algorithm type.</returns>
         private (Option option, AlgorithmType data) selectRecommendationAlgorithm()
         {
             do
@@ -159,6 +191,9 @@ namespace Lab3_RecommendationEngine
             while (true);
         }
 
+        /// <summary>
+        /// Method to print special message for user and wait for his input.
+        /// </summary>
         private void wrongUserInputMessage()
         {
             _renderService.RenderCustomMessage("Write incorrect index. Press anything to start again.");
@@ -166,7 +201,11 @@ namespace Lab3_RecommendationEngine
             _renderService.ClearConsole();
         }
 
-        private void renderSelectedAlgorithmBestAndWorseUsers(AlgorithmType algorithmType)
+        /// <summary>
+        /// Method to render for given algorithm type best and worst users.
+        /// </summary>
+        /// <param name="algorithmType">Type of selected algorithm.</param>
+        private void renderSelectedAlgorithmBestAndWorstUsers(AlgorithmType algorithmType)
         {
             switch (algorithmType)
             {
@@ -183,6 +222,9 @@ namespace Lab3_RecommendationEngine
             }
         }
         
+        /// <summary>
+        /// Method to render best and worst users by Euclidean score.
+        /// </summary>
         private void renderEuclideanBestAndWorstUsers()
         {
             IEnumerable<RecommendationUserData> top5EuclideanUsers = _recommendationService.GetTop5Users(AlgorithmType.Euclidean);
@@ -192,6 +234,9 @@ namespace Lab3_RecommendationEngine
             _renderService.RenderScoreUsers(worst5EuclideanUsers, AlgorithmType.Euclidean, RecommendationType.Worst);
         }
 
+        /// <summary>
+        /// Method to render best and worst users by Manhattan score.
+        /// </summary>
         private void renderManhattanBestAndWorstUsers()
         {
             IEnumerable<RecommendationUserData> top5ManhattanUsers = _recommendationService.GetTop5Users(AlgorithmType.Manhattan);
@@ -201,6 +246,11 @@ namespace Lab3_RecommendationEngine
             _renderService.RenderScoreUsers(worst5ManhattanUsers, AlgorithmType.Manhattan, RecommendationType.Worst);
         }
 
+        /// <summary>
+        /// Method to render best/worst users by given algorithm and recommendation type.
+        /// </summary>
+        /// <param name="algorithmType">Selected algorithm type.</param>
+        /// <param name="recommendationType">Selected recommendation type.</param>
         private void renderSelectedRecommendation(AlgorithmType algorithmType, RecommendationType recommendationType)
         {
             switch (recommendationType)
@@ -216,6 +266,11 @@ namespace Lab3_RecommendationEngine
             }
         }
 
+        /// <summary>
+        /// Special UI for recommendation decision making.
+        /// </summary>
+        /// <param name="algorithmType">Selected algorithm type.</param>
+        /// <param name="recommendationType">Selected recommendation type.</param>
         private void recommendationMenu(AlgorithmType algorithmType, RecommendationType recommendationType)
         {
 
@@ -247,6 +302,11 @@ namespace Lab3_RecommendationEngine
             while (true);
         }
 
+        /// <summary>
+        /// Method to get collection of expected 5 users.
+        /// </summary>
+        /// <param name="selectedOptions">Tuple of selected algorithm and recommendation type.</param>
+        /// <returns>Colection of 5 expected by options users.</returns>
         private IEnumerable<RecommendationUserData> getUsersForSelectedOptions((AlgorithmType algorithmType, RecommendationType recommendationType) selectedOptions)
         {
             switch (selectedOptions)
@@ -262,6 +322,12 @@ namespace Lab3_RecommendationEngine
             }
         }
 
+        /// <summary>
+        /// Method to get recommended or unrecommended movies.
+        /// </summary>
+        /// <param name="usersForSelectedOptions">Collection of users selected by given options.</param>
+        /// <param name="recommendationType">Recommendation type.</param>
+        /// <returns>Collection of 5 best or worse movies for current user.</returns>
         private IEnumerable<Movie> getRecommendedMovies(IEnumerable<RecommendationUserData> usersForSelectedOptions, RecommendationType recommendationType)
         {
             List<Movie> recommendedMovies = new();
@@ -281,6 +347,11 @@ namespace Lab3_RecommendationEngine
             return sortedMovies.Count() >= 5 ? sortedMovies.Take(5) : sortedMovies.Take(sortedMovies.Count());
         }
 
+        /// <summary>
+        /// Method to select movie which want read description.
+        /// </summary>
+        /// <param name="moviesList">Collection of movies to select.</param>
+        /// <returns>Return tuple of selected option, and string with custom data.</returns>
         private (Option option, string data) selectMovieToPrintDescription(IEnumerable<Movie> moviesList)
         {
             do
@@ -315,6 +386,10 @@ namespace Lab3_RecommendationEngine
             while (true);
         }
 
+        /// <summary>
+        /// Method to get collection of Algorithm types.
+        /// </summary>
+        /// <returns>Collection of AlgorithmType.</returns>
         private IEnumerable<AlgorithmType> getAlgorithmTypes()
             => new List<AlgorithmType>() { AlgorithmType.Euclidean, AlgorithmType.Manhattan };
     }
