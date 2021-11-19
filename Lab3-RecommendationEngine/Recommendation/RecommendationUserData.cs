@@ -9,6 +9,7 @@ namespace Lab3_RecommendationEngine.Recommendation
         public List<Movie> EqualsMovies { get; }
         public List<Movie> DifferentMovies { get; }
         public double EuclideanScore { get; private set; }
+        public double ManhattanScore { get; private set; }
 
         public RecommendationUserData(string name)
         {
@@ -21,6 +22,11 @@ namespace Lab3_RecommendationEngine.Recommendation
         public void SetEuclideanScore(double score)
         {
             EuclideanScore = score;
+        }
+
+        public void SetManhattanScore(double score)
+        {
+            ManhattanScore = score;
         }
     }
 }
