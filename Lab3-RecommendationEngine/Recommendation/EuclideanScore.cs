@@ -9,27 +9,23 @@ namespace Lab3_RecommendationEngine.Recommendation
     {
         public double CalculateScore(RecommendationUserData userData, User currentUser)
         {
-            List<double> SquareDiffRatings = new();
+            List<double> squareDiffRatings = new();
 
             foreach (Movie equalMovie in userData.EqualsMovies)
             {
                 int currentUserRating = currentUser.Movie.First(x => x.Title == equalMovie.Title).Rating;
-                SquareDiffRatings.Add(Math.Pow(currentUserRating - equalMovie.Rating, 2));
+                squareDiffRatings.Add(Math.Pow(currentUserRating - equalMovie.Rating, 2));
             }
 
-            if (SquareDiffRatings.Count() == 0)
+            if (squareDiffRatings.Count() == 0)
             {
                 return 0;
             }
 
-
-
-            return getAlgorithmScore(SquareDiffRatings);
+            return getAlgorithmScore(squareDiffRatings);
         }
 
         private double getAlgorithmScore(List<double> squareDiffRatings)
-        {
-            return 1 / (1 + Math.Sqrt(squareDiffRatings.Sum()));
-        }
+            => 1 / (1 + Math.Sqrt(squareDiffRatings.Sum()));
     }
 }
