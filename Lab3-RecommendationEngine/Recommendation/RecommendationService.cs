@@ -20,30 +20,53 @@ namespace Lab3_RecommendationEngine.Recommendation
 
         public void CalculateScore()
         {
-            IEnumerable<IComputeScore> algorithms = new List<IComputeScore>()
-            {
-                new EuclideanScore(),
-            };
-
             foreach (User otherUser in _otherUsers)
             {
                 RecommendationUserData userData = new(otherUser.Name);
 
                 analyzeMovies(userData, otherUser);
 
-                foreach (IComputeScore algorithm in algorithms)
+                foreach (IComputeScore algorithm in getComputeScoreList())
                 {
                     double score = algorithm.CalculateScore(userData, _currentUser);
 
-                    if (algorithm.GetType() == typeof(EuclideanScore))
+                    switch (algorithm.GetType())
                     {
-                        userData.SetEuclideanScore(score);
+                        case var a when a == typeof(EuclideanScore):
+                            userData.SetEuclideanScore(score);
+                            break;
+
+                        case var a when a == typeof(ManhattanScore):
+                            userData.SetManhattanScore(score);
+                            break;
                     }
                 }
 
                 _recommendationUserData.Add(userData);
             }
+        }
 
+        private IEnumerable<IComputeScore> getComputeScoreList()
+            => new List<IComputeScore>() { new EuclideanScore(), new ManhattanScore() };
+
+        public IEnumerable<RecommendationUserData> GetTop5Users(AlgorithmType algorithm)
+        {
+            Func<RecommendationUserData, double> func =
+                algorithm == AlgorithmType.Euclidean ? ((x) => x.EuclideanScore) : ((x) => x.ManhattanScore);
+
+            return algorithm == AlgorithmType.Euclidean
+                ? _recommendationUserData.OrderBy(func).Take(5)
+                : _recommendationUserData.OrderByDescending(func).Take(5);
+        }
+
+        public IEnumerable<RecommendationUserData> GetWorst5Users(AlgorithmType algorithm)
+        {
+            Func<RecommendationUserData, double> func =
+                algorithm == AlgorithmType.Euclidean ? ((x) => x.EuclideanScore) : ((x) => x.ManhattanScore);
+
+            return algorithm == AlgorithmType.Euclidean
+                ? _recommendationUserData.OrderByDescending(func).Take(5)
+                : _recommendationUserData.OrderBy(func).Take(5);
         }
 
         private void analyzeMovies(RecommendationUserData userData, User otherUser)
@@ -53,11 +76,10 @@ namespace Lab3_RecommendationEngine.Recommendation
                 if (_currentUser.Movie.Any(x => x.Title.Equals(otherMovie.Title, StringComparison.OrdinalIgnoreCase)))
                 {
                     userData.EqualsMovies.Add(otherMovie);
+                    continue;
                 }
-                else
-                {
-                    userData.DifferentMovies.Add(otherMovie);
-                }
+
+                userData.DifferentMovies.Add(otherMovie);
             }
         }
 
