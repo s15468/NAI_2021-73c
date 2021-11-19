@@ -22,7 +22,7 @@ namespace Lab3_RecommendationEngine.Recommendation
 
             foreach (Movie equalMovie in userData.EqualsMovies)
             {
-                int currentUserRating = currentUser.Movie.First(x => x.Title == equalMovie.Title).Rating;
+                int currentUserRating = currentUser.Movie.First(x => x.Title.Equals(equalMovie.Title, StringComparison.OrdinalIgnoreCase)).Rating;
                 squareDiffRatings.Add(Math.Pow(currentUserRating - equalMovie.Rating, 2));
             }
 
