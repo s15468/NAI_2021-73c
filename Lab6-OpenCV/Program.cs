@@ -4,6 +4,18 @@ using System.Threading;
 
 namespace Lab6_OpenCV
 {
+    /// <summary>
+    /// Created by Julian Chodorowski
+    /// 
+    /// Application does not work correctly!!!
+    /// Code does not contains EgmuCV due this framework does not work correctly with .NET Framework.
+    /// Issues occurs when trying to show frames from example video.
+    /// 
+    /// Second found issue is MediaPipe does not contains any wrapper for C# yet.
+    /// With my current programming skills im unable to write working own wrapper for MediaPipe from C++ to  C# :(
+    /// 
+    /// For now application only connecting to Opened Spotify application and invoking buttons to test functionality.
+    /// </summary>
     internal class Program
     {
         private static SpotifyService spotifyService = new SpotifyService();
